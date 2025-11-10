@@ -1,505 +1,88 @@
-[00:00:00.558] Server  LOG      ✓ Ready in 400ms
-[00:00:14.315] Server  WARN    Error: Route "/(.)notes/[id]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:00:14.315] Server  LOG     🟢 Modal params: {}
-[00:00:14.317] Server  WARN    Error: Route "/(.)notes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:00:14.317] Server  ERROR   ❌ No note ID passed to modal!
-[00:09:59.445] Server  WARN    Error: Route "/(.)notes/[id]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:09:59.445] Server  LOG     Modal params: {}
-[00:09:59.447] Server  WARN    Error: Route "/(.)notes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:09:59.447] Server  ERROR   No note ID passed to modal!
-[02:18:27.931] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[02:18:28.020] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[02:18:28.056] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[02:18:28.070] Server  LOG      ✓ Compiled in 273ms
-[02:18:35.586] Server  WARN    Error: Route "/(.)notes/[id]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:18:35.586] Server  LOG     Modal params: {}
-[02:18:35.588] Server  WARN    Error: Route "/(.)notes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:18:35.588] Server  ERROR   No note ID passed to modal!
-[02:20:01.437] Server  WARN    Error: Route "/(.)notes/[id]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:20:01.437] Server  LOG     Modal params: {}
-[02:20:01.439] Server  WARN    Error: Route "/(.)notes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:20:01.440] Server  ERROR   No note ID passed to modal!
-[02:20:02.146] Server  WARN    Error: Route "/(.)notes/[id]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:20:02.146] Server  LOG     Modal params: {}
-[02:20:02.149] Server  WARN    Error: Route "/(.)notes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:20:02.149] Server  ERROR   No note ID passed to modal!
-[02:20:03.362] Server  WARN    Error: Route "/(.)notes/[id]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:20:03.362] Server  LOG     Modal params: {}
-[02:20:03.364] Server  WARN    Error: Route "/(.)notes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:20:03.364] Server  ERROR   No note ID passed to modal!
-[02:20:04.622] Server  WARN    Error: Route "/(.)notes/[id]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:20:04.622] Server  LOG     Modal params: {}
-[02:20:04.628] Server  WARN    Error: Route "/(.)notes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:20:04.628] Server  ERROR   No note ID passed to modal!
-[02:20:04.955] Server  WARN    Error: Route "/(.)notes/[id]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:20:04.956] Server  LOG     Modal params: {}
-[02:20:04.957] Server  WARN    Error: Route "/(.)notes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:20:04.957] Server  ERROR   No note ID passed to modal!
-[02:20:05.139] Server  WARN    Error: Route "/(.)notes/[id]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:20:05.139] Server  LOG     Modal params: {}
-[02:20:05.141] Server  WARN    Error: Route "/(.)notes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:20:05.141] Server  ERROR   No note ID passed to modal!
-[02:20:05.280] Server  WARN    Error: Route "/(.)notes/[id]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:20:05.280] Server  LOG     Modal params: {}
-[02:20:05.282] Server  WARN    Error: Route "/(.)notes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:20:05.282] Server  ERROR   No note ID passed to modal!
-[02:20:05.423] Server  WARN    Error: Route "/(.)notes/[id]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:20:05.423] Server  LOG     Modal params: {}
-[02:20:05.429] Server  WARN    Error: Route "/(.)notes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:20:05.429] Server  ERROR   No note ID passed to modal!
-[02:20:08.000] Server  WARN    Error: Route "/(.)notes/[id]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:20:08.000] Server  LOG     Modal params: {}
-[02:20:08.002] Server  WARN    Error: Route "/(.)notes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:20:08.002] Server  ERROR   No note ID passed to modal!
-[02:26:42.687] Server  WARN    Error: Route "/(.)notes/[id]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:26:42.687] Server  LOG     Modal params: {}
-[02:26:42.689] Server  WARN    Error: Route "/(.)notes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:26:42.689] Server  ERROR   No note ID passed to modal!
-[02:31:22.817] Server  WARN    Error: Route "/(.)notes/[id]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:31:22.817] Server  LOG     Modal params: {}
-[02:31:22.818] Server  WARN    Error: Route "/(.)notes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[02:31:22.819] Server  ERROR   No note ID passed to modal!
-[02:34:48.129] Server  LOG     API call for note ID: "cmgqdbduo112xyy8u7ynn5zeb"
-[02:34:48.756] Browser LOG     API call for note ID: cmgqdbduo112xyy8u7ynn5zeb
-[02:34:50.393] Browser LOG     API call for note ID: cmgqdbduo112xyy8u7ynn5zeb
-[02:34:52.559] Browser LOG     API call for note ID: cmgqdbduo112xyy8u7ynn5zeb
-[02:34:56.728] Browser LOG     API call for note ID: cmgqdbduo112xyy8u7ynn5zeb
-[02:35:02.870] Server  LOG     API call for note ID: "cmgqdbdun112syy8uz3cqyipf"
-[02:35:03.038] Server  ERROR    ⨯ AxiosError: Request failed with status code 404
-[02:35:03.293] Browser ERROR   uncaughtError: AxiosError: Request failed with status code 404
-[02:37:59.560] Server  LOG     
-[02:37:59.560] Server  LOG     Could not open page.tsx in the editor.
-[02:37:59.560] Server  LOG     The editor process exited with an error: (code 1).
-[02:37:59.560] Server  LOG     
-[02:37:59.561] Server  LOG     To set up the editor integration, add something like REACT_EDITOR=atom to the .env.local file in your project folder and restart the development server.
-[02:37:59.561] Server  LOG     
-[02:42:35.755] Browser ERROR   ./app/@modal/(.)notes/[id]/page.tsx:27:1
-Parsing ecmascript source code failed
-  25 |   <NotePreview note={note} />;
-  26 |   <Modal />
-> 27 | }
-     | ^
-  28 |
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-[02:42:46.211] Server  LOG     API call for note ID: "cmgqdbdun112syy8uz3cqyipf"
-[02:42:46.264] Server  LOG      ✓ Compiled in 23ms
-[02:42:47.014] Browser LOG     API call for note ID: cmgqdbdun112syy8uz3cqyipf
-[02:42:48.649] Browser LOG     API call for note ID: cmgqdbdun112syy8uz3cqyipf
-[02:42:51.344] Server  LOG     API call for note ID: "cmgqdbdun112syy8uz3cqyipf"
-[02:42:51.499] Server  ERROR    ⨯ AxiosError: Request failed with status code 404
-[02:42:51.769] Browser ERROR   uncaughtError: AxiosError: Request failed with status code 404
-[02:44:17.435] Browser ERROR   ./app/@modal/(.)notes/[id]/page.tsx:26:5
-Parsing ecmascript source code failed
-  24 |   <NotePreview note={note} />;
-  25 |   <Modal/>
-> 26 |   );}
-     |     ^
-  27 |
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-[02:44:22.435] Browser ERROR   ./app/@modal/(.)notes/[id]/page.tsx:26:5
-Parsing ecmascript source code failed
-  24 |   <NotePreview note={note} />;
-  25 |   <Modal />
-> 26 |   );}
-     |     ^
-  27 |
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-[02:44:45.435] Browser ERROR   ./app/@modal/(.)notes/[id]/page.tsx:26:4
-Parsing ecmascript source code failed
-  24 |   <NotePreview note={note} />;
-  25 |   <Modal />
-> 26 |   )}
-     |    ^
-  27 |
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-[02:44:57.434] Browser ERROR   ./app/@modal/(.)notes/[id]/page.tsx:26:5
-Parsing ecmascript source code failed
-  24 |   <NotePreview note={note} />;
-  25 |   <Modal />
-> 26 |   );};
-     |     ^
-  27 |
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-[02:45:51.036] Server  LOG     API call for note ID: "cmgqdbdun112syy8uz3cqyipf"
-[02:45:51.051] Server  LOG      ✓ Compiled in 14ms
-[02:46:52.911] Browser LOG     API call for note ID: cmgqdbdun112syy8uz3cqyipf
-[02:46:57.904] Server  LOG     API call for note ID: "cmgqdbdun112syy8uz3cqyipf"
-[02:46:58.069] Server  ERROR    ⨯ AxiosError: Request failed with status code 404
-[02:46:58.332] Browser ERROR   uncaughtError: AxiosError: Request failed with status code 404
-[02:47:29.091] Server  LOG     API call for note ID: "cmgqdbdun112syy8uz3cqyipf"
-[02:47:29.109] Server  LOG      ✓ Compiled in 11ms
-[02:47:29.675] Browser LOG     API call for note ID: cmgqdbdun112syy8uz3cqyipf
-[02:47:30.963] Browser LOG     API call for note ID: cmgqdbdun112syy8uz3cqyipf
-[02:47:33.113] Browser LOG     API call for note ID: cmgqdbdun112syy8uz3cqyipf
-[02:47:37.271] Browser LOG     API call for note ID: cmgqdbdun112syy8uz3cqyipf
-[02:47:48.960] Browser ERROR   ./app/@modal/(.)notes/[id]/page.tsx:24:27
-Parsing ecmascript source code failed
-  22 |   return (
-  23 |     <Modal>
-> 24 |      <NotePreview note={}/>
-     |                           ^
-  25 |     </Modal>
-  26 |   );
-  27 | };
-
-Expression expected
-[02:48:15.191] Server  LOG     API call for note ID: "cmgqdbdun112syy8uz3cqyipf"
-[02:48:15.203] Server  LOG      ✓ Compiled in 6ms
-[02:48:16.739] Server  LOG     API call for note ID: "cmgqdbdun112syy8uz3cqyipf"
-[02:48:17.204] Browser LOG     API call for note ID: cmgqdbdun112syy8uz3cqyipf
-[02:48:18.502] Browser LOG     API call for note ID: cmgqdbdun112syy8uz3cqyipf
-[02:48:21.394] Server  LOG     API call for note ID: "cmgqdbdun112syy8uz3cqyipf"
-[02:48:21.559] Server  ERROR    ⨯ AxiosError: Request failed with status code 404
-[02:48:21.822] Browser ERROR   uncaughtError: AxiosError: Request failed with status code 404
-[02:50:59.099] Server  LOG     API call for note ID: "cmgqdbdun112syy8uz3cqyipf"
-[02:50:59.739] Browser LOG     API call for note ID: cmgqdbdun112syy8uz3cqyipf
-[02:51:01.441] Browser LOG     API call for note ID: cmgqdbdun112syy8uz3cqyipf
-[02:51:03.603] Browser LOG     API call for note ID: cmgqdbdun112syy8uz3cqyipf
-[02:51:07.769] Browser LOG     API call for note ID: cmgqdbdun112syy8uz3cqyipf
-[02:55:45.435] Browser ERROR   ./app/@modal/(.)notes/[id]/page.tsx:18:9
-Ecmascript file had an error
-  16 |   }
-  17 |
-> 18 |   const note = await fetchNoteById(id);
-     |         ^^^^
-  19 |   console.log("Note fetched in modal:", note);
-  20 |
-  21 |   if (!note) return <p>Note not found!</p>;
-
-the name `note` is defined multiple times
-[02:56:30.034] Server  LOG      ✓ Compiled in 7ms
-[02:59:21.196] Server  ERROR    ⨯ ./app/@modal/(.)notes/[id]/page.tsx:2:1
-Module not found: Can't resolve '@/components/NotePreview/NotePreview'
-  1 | import Modal from "@/components/Modal/Modal";
-> 2 | import NotePreview from "@/components/NotePreview/NotePreview";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import { fetchNoteById } from "@/lib/api";
-  4 |
-  5 | interface ModalNotePageProps {
-
-Import map: aliased to relative './components/NotePreview/NotePreview' inside of [project]/
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:59:21.197] Server  ERROR    ⨯ ./app/@modal/(.)notes/[id]/page.tsx:2:1
-Module not found: Can't resolve '@/components/NotePreview/NotePreview'
-  1 | import Modal from "@/components/Modal/Modal";
-> 2 | import NotePreview from "@/components/NotePreview/NotePreview";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import { fetchNoteById } from "@/lib/api";
-  4 |
-  5 | interface ModalNotePageProps {
-
-Import map: aliased to relative './components/NotePreview/NotePreview' inside of [project]/
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:59:21.434] Browser ERROR   ./app/@modal/(.)notes/[id]/page.tsx:2:1
-Module not found: Can't resolve '@/components/NotePreview/NotePreview'
-  1 | import Modal from "@/components/Modal/Modal";
-> 2 | import NotePreview from "@/components/NotePreview/NotePreview";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import { fetchNoteById } from "@/lib/api";
-  4 |
-  5 | interface ModalNotePageProps {
-
-Import map: aliased to relative './components/NotePreview/NotePreview' inside of [project]/
-
-https://nextjs.org/docs/messages/module-not-found
-[02:59:42.192] Server  LOG      ✓ Compiled in 44ms
-[02:59:51.460] Server  LOG     API call for note ID: "cmgqdbdun112ryy8ul8hcxzrv"
-[02:59:51.632] Server  ERROR    ⨯ AxiosError: Request failed with status code 404
-[02:59:51.888] Browser ERROR   uncaughtError: AxiosError: Request failed with status code 404
-[03:21:14.854] Server  LOG     API call for note ID: "cmgqdbdun112ryy8ul8hcxzrv"
-[03:21:15.682] Browser LOG     API call for note ID: cmgqdbdun112ryy8ul8hcxzrv
-[03:21:17.457] Browser LOG     API call for note ID: cmgqdbdun112ryy8ul8hcxzrv
-[03:21:19.681] Browser LOG     API call for note ID: cmgqdbdun112ryy8ul8hcxzrv
-[03:21:23.849] Browser LOG     API call for note ID: cmgqdbdun112ryy8ul8hcxzrv
-[03:25:17.653] Server  LOG     API call for note ID: "cmgqdbdun112ryy8ul8hcxzrv"
-[03:25:18.156] Server  ERROR    ⨯ AxiosError: Request failed with status code 404
-[03:25:18.293] Browser ERROR   uncaughtError: AxiosError: Request failed with status code 404
-[03:27:47.962] Server  LOG     API call for note ID: "cmgqdbdun112ryy8ul8hcxzrv"
-[03:27:47.971] Server  LOG      ✓ Compiled in 96ms
-[03:28:26.875] Server  LOG     API call for note ID: "cmgqdbdun112ryy8ul8hcxzrv"
-[03:28:26.891] Server  LOG      ✓ Compiled in 5ms
-[03:28:27.724] Browser LOG     API call for note ID: cmgqdbdun112ryy8ul8hcxzrv
-[03:29:25.723] Browser ERROR   ./app/@modal/(.)notes/[id]/page.tsx:40:7
-Parsing ecmascript source code failed
-  38 |       <h2>hello</h2>
-  39 |       
-> 40 |     </>
-     |       ^
-  41 |   );
-  42 | };
-  43 |
-
-Expression expected
-[03:29:37.174] Server  LOG     API call for note ID: "cmgqdbdun112ryy8ul8hcxzrv"
-[03:29:37.190] Server  LOG      ✓ Compiled in 54ms
-[03:32:16.195] Server  LOG      ✓ Compiled in 10ms
-[03:33:30.445] Server  LOG      ✓ Compiled in 33ms
-[03:34:54.927] Server  LOG      ✓ Compiled in 9ms
-[03:35:10.572] Server  LOG      ✓ Compiled in 5ms
-[03:35:10.658] Browser ERROR   uncaughtError: ReferenceError: handleBackdropClick is not defined
-[03:35:26.259] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[03:35:26.288] Server  LOG     API call for note ID: "cmgqdbduo1133yy8ugthvbp9l"
-[03:35:26.334] Server  LOG      ✓ Compiled in 9ms
-[03:35:26.335] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[03:35:26.996] Browser LOG     API call for note ID: cmgqdbduo1133yy8ugthvbp9l
-[03:35:28.389] Browser LOG     API call for note ID: cmgqdbduo1133yy8ugthvbp9l
-[03:39:36.509] Server  LOG      ✓ Compiled in 6ms
-[03:40:22.440] Server  LOG      ✓ Compiled in 28ms
-[03:40:25.150] Server  LOG     API call for note ID: "cmgqdbdun112tyy8u89qdmw8x"
-[03:40:25.364] Server  ERROR    ⨯ AxiosError: Request failed with status code 404
-[03:40:25.573] Browser ERROR   uncaughtError: AxiosError: Request failed with status code 404
-[03:41:04.371] Server  LOG     API call for note ID: "cmgqdbdun112tyy8u89qdmw8x"
-[03:41:04.375] Server  LOG      ✓ Compiled in 9ms
-[03:41:05.165] Browser LOG     API call for note ID: cmgqdbdun112tyy8u89qdmw8x
-[03:41:06.843] Browser LOG     API call for note ID: cmgqdbdun112tyy8u89qdmw8x
-[03:41:09.060] Browser LOG     API call for note ID: cmgqdbdun112tyy8u89qdmw8x
-[03:41:13.227] Browser LOG     API call for note ID: cmgqdbdun112tyy8u89qdmw8x
-[03:43:20.414] Server  LOG     API call for note ID: "cmgqdbdun112ryy8ul8hcxzrv"
-[03:43:20.617] Server  ERROR    ⨯ AxiosError: Request failed with status code 404
-[03:43:20.845] Browser ERROR   uncaughtError: AxiosError: Request failed with status code 404
-[03:44:17.933] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[03:44:19.129] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-
-  ...
-    <ErrorBoundaryHandler pathname="/notes/cmg..." errorComponent={function ErrorComponent} ...>
-      <LoadingBoundary name="cmgqdbdun1..." loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/notes/cmg..." tree={[...]} params={{id:"cmgqdb..."}} ...>
-                <SegmentViewNode type="page" pagePath="notes/[id]...">
-                  <SegmentTrieNode>
-                  <NotePage>
-                    <HydrationBoundary state={{...}}>
-                      <NoteDetailsClient id="cmgqdbdun1...">
-                        <NoteDetails note={{id:"cmgqdb...", ...}}>
-                          <div className="NoteDetail...">
-                            <div className="NoteDetail...">
-                              <div>
-                              <p>
-                              <p className="NoteDetail...">
-+                               14.10.2025
--                               10/14/2025
-                ...
-              ...
-
-[03:45:16.920] Server  LOG      ✓ Compiled in 11ms
-[03:46:02.597] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-
-  ...
-    <ErrorBoundaryHandler pathname="/notes/cmg..." errorComponent={function ErrorComponent} ...>
-      <LoadingBoundary name="cmgqdbdun1..." loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/notes/cmg..." tree={[...]} params={{id:"cmgqdb..."}} ...>
-                <SegmentViewNode type="page" pagePath="notes/[id]...">
-                  <SegmentTrieNode>
-                  <NotePage>
-                    <HydrationBoundary state={{...}}>
-                      <NoteDetailsClient id="cmgqdbdun1...">
-                        <NoteDetails note={{id:"cmgqdb...", ...}}>
-                          <div className="NoteDetail...">
-                            <div className="NoteDetail...">
-                              <div>
-                              <p>
-                              <p className="NoteDetail...">
-+                               14.10.2025
--                               10/14/2025
-                ...
-              ...
-
-[03:48:40.764] Server  LOG      ✓ Compiled in 41ms
-[03:50:56.682] Server  LOG      ✓ Compiled in 100ms
-[03:52:25.607] Server  LOG      ✓ Compiled in 27ms
-[03:53:09.182] Server  LOG      ✓ Compiled in 5ms
-[03:53:34.220] Server  LOG      ✓ Compiled in 26ms
-[03:54:25.996] Server  LOG      ✓ Compiled in 5ms
-[03:55:14.717] Server  LOG      ✓ Compiled in 5ms
-[03:55:54.528] Server  LOG      ✓ Compiled in 3ms
-[03:56:19.452] Server  LOG      ✓ Compiled in 5ms
-[03:58:29.005] Server  LOG      ✓ Compiled in 18ms
-[03:58:52.224] Server  WARN    Error: Route "/notes/filter/[tag]" used `params.tag`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[04:02:32.211] Server  WARN    Error: Route "/notes/filter/[tag]" used `params.tag`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[04:02:33.581] Server  WARN    Error: Route "/notes/filter/[tag]" used `params.tag`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[04:02:41.714] Server  WARN    Error: Route "/notes/filter/[tag]" used `params.tag`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[04:02:50.242] Server  WARN    Error: Route "/notes/filter/[tag]" used `params.tag`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:07:55.238] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:07:55.256] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:09:19.927] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:09:19.956] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:09:19.982] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:09:20.020] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:09:20.055] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:09:20.092] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:12:40.761] Server  LOG      ✓ Compiled in 19ms
-[05:12:55.103] Server  LOG      ✓ Compiled in 6ms
-[05:14:11.874] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
-[05:16:54.693] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
-[05:23:03.468] Browser ERROR   uncaughtError: Error: Switched to client rendering because the server rendering errored:
-
-Request failed with status code 400
-[05:23:03.469] Browser ERROR   uncaughtError: Error: Switched to client rendering because the server rendering errored:
-
-Request failed with status code 400
-[05:24:58.039] Server  ERROR    ⨯ Error: The default export is not a React Component in "/notes/filter/[...slug]/layout"
-[05:24:58.174] Server  ERROR    ⨯ Error: The default export is not a React Component in "/notes/filter/[...slug]/layout"
-[05:24:58.790] Server  ERROR    ⨯ Error: The default export is not a React Component in "/notes/filter/[...slug]/layout"
-[05:24:58.908] Server  ERROR    ⨯ Error: The default export is not a React Component in "/notes/filter/[...slug]/layout"
-[05:24:59.019] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/notes/filter/[...slug]/layout"
-[05:25:14.298] Server  LOG      ✓ Compiled in 17ms
-[05:28:11.698] Server  LOG      ✓ Compiled in 3ms
-[05:29:15.310] Browser ERROR   uncaughtError: Error: The server could not finish this Suspense boundary, likely due to an error during server rendering. Switched to client rendering.
-[05:31:23.312] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
-[05:32:46.289] Browser ERROR   uncaughtError: Error: Switched to client rendering because the server rendering errored:
-
-Request failed with status code 400
-[05:32:46.290] Browser ERROR   uncaughtError: Error: Switched to client rendering because the server rendering errored:
-
-Request failed with status code 400
-[05:32:46.535] Server  ERROR    ⨯ AxiosError: Request failed with status code 404
-[05:32:46.546] Server  ERROR    ⨯ AxiosError: Request failed with status code 404
-[05:32:46.551] Server  ERROR    ⨯ AxiosError: Request failed with status code 404
-[05:32:46.612] Server  ERROR    ⨯ AxiosError: Request failed with status code 404
-[05:32:54.344] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
-[05:32:54.364] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
-[05:32:54.384] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
-[05:32:54.394] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
-[05:33:26.210] Server  LOG      ✓ Compiled in 11ms
-[05:33:33.831] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
-[05:33:55.206] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
-[05:35:06.208] Browser ERROR   uncaughtError: Error: Switched to client rendering because the server rendering errored:
-
-Request failed with status code 400
-[05:35:06.397] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
-[05:35:06.476] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
-[05:35:06.482] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
-[05:35:06.525] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
-[05:47:35.037] Server  LOG      ✓ Compiled in 195ms
-[05:49:20.543] Server  LOG      ✓ Compiled in 10ms
-[05:50:16.261] Server  LOG      ✓ Compiled in 11ms
-[05:52:00.146] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:52:00.150] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
-[05:52:00.170] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:52:00.172] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
-[05:52:34.571] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:52:34.574] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
-[05:52:59.224] Server  LOG      ✓ Compiled in 14ms
-[05:53:56.295] Server  LOG      ✓ Compiled in 5ms
-[05:54:12.238] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:54:12.240] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
-[05:54:17.824] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:54:17.830] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
-[05:54:19.303] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:54:19.309] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
-[05:54:22.457] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:54:22.460] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
-[05:54:24.299] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:54:24.310] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
-[05:54:24.545] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:54:24.548] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
-[05:54:24.871] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:54:24.875] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
-[05:54:26.681] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:54:26.686] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
-[05:54:28.447] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:54:28.452] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
-[05:56:12.419] Server  LOG      ✓ Compiled in 8ms
-[05:56:34.853] Server  LOG      ✓ Compiled in 40ms
-[05:57:31.542] Server  LOG      ✓ Compiled in 10ms
-[05:57:48.149] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[05:57:48.159] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
-[06:01:10.523] Server  LOG      ✓ Compiled in 7ms
-[06:01:37.876] Server  LOG      ✓ Compiled in 13ms
-[06:02:13.316] Server  LOG      ✓ Compiled in 7ms
-[06:03:21.506] Server  LOG      ✓ Compiled in 13ms
-[06:04:14.053] Server  LOG      ✓ Compiled in 4ms
-[06:05:05.413] Server  LOG      ✓ Compiled in 55ms
-[06:07:02.474] Server  LOG      ✓ Compiled in 17ms
-[06:07:22.363] Server  LOG      ✓ Compiled in 145ms
-[06:08:13.369] Server  LOG      ✓ Compiled in 29ms
-[06:08:55.081] Server  LOG      ✓ Compiled in 7ms
-[06:09:50.934] Server  ERROR    ⨯ ReferenceError: params is not defined
-[06:10:14.855] Server  LOG      ✓ Compiled in 9ms
-[06:11:11.224] Browser ERROR   ./app/notes/filter/layout.tsx:2:10
-Ecmascript file had an error
+[00:00:00.575] Server  LOG      ✓ Ready in 412ms
+[00:00:04.552] Server  ERROR    ⨯ ./app/notes/filter/layout.tsx:3:1
+Module not found: Can't resolve '../Notes.client'
   1 | // app/notes/filter/layout.tsx
-> 2 | import { useParams } from 'next/navigation';
-    |          ^^^^^^^^^
-  3 | import NotesClient from '../Notes.client';
+  2 |
+> 3 | import NotesClient from '../Notes.client';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   4 | import SidebarNotes from './@sidebar/SidebarNotes';
   5 |
-
-You're importing a component that needs `useParams`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[06:12:46.018] Server  LOG      ✓ Compiled in 54ms
-[06:13:05.288] Server  LOG      ✓ Compiled in 7ms
-[06:13:19.594] Server  LOG      ✓ Compiled in 22ms
-[06:15:47.381] Server  LOG      ✓ Compiled in 6ms
-[06:18:32.605] Server  LOG      ✓ Compiled in 6ms
-[06:33:39.452] Server  ERROR    ⨯ ./app/@modal/(.)notes/[id]/page.tsx:5:1
-Module not found: Can't resolve './NotePreview'
-  3 |
-  4 | import Modal from "@/components/Modal/Modal";
-> 5 | import NotePreview from "./NotePreview";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | interface ModalNotePageProps {
-  8 |   params: Promise<{ id: string }>; 
+  6 | export default function FilterLayout() {
 
 
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[06:33:39.452] Server  ERROR    ⨯ ./app/@modal/(.)notes/[id]/page.tsx:5:1
-Module not found: Can't resolve './NotePreview'
-  3 |
-  4 | import Modal from "@/components/Modal/Modal";
-> 5 | import NotePreview from "./NotePreview";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | interface ModalNotePageProps {
-  8 |   params: Promise<{ id: string }>; 
+[00:00:04.976] Browser ERROR   uncaughtError: Error: ./app/notes/filter/layout.tsx:3:1
+Module not found: Can't resolve '../Notes.client'
+  1 | // app/notes/filter/layout.tsx
+  2 |
+> 3 | import NotesClient from '../Notes.client';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SidebarNotes from './@sidebar/SidebarNotes';
+  5 |
+  6 | export default function FilterLayout() {
 
 
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[06:33:48.122] Server  LOG      ✓ Compiled in 21ms
-[06:35:05.009] Server  LOG      ✓ Compiled in 38ms
+[00:00:05.130] Browser ERROR   ./app/notes/filter/layout.tsx:3:1
+Module not found: Can't resolve '../Notes.client'
+  1 | // app/notes/filter/layout.tsx
+  2 |
+> 3 | import NotesClient from '../Notes.client';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SidebarNotes from './@sidebar/SidebarNotes';
+  5 |
+  6 | export default function FilterLayout() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:05.130] Browser ERROR   ./app/notes/filter/layout.tsx:3:1
+Module not found: Can't resolve '../Notes.client'
+  1 | // app/notes/filter/layout.tsx
+  2 |
+> 3 | import NotesClient from '../Notes.client';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SidebarNotes from './@sidebar/SidebarNotes';
+  5 |
+  6 | export default function FilterLayout() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:06.621] Browser ERROR   ./app/notes/filter/layout.tsx:3:1
+Module not found: Can't resolve '../Notes.client'
+  1 | // app/notes/filter/layout.tsx
+  2 |
+> 3 | import NotesClient from '../Notes.client';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SidebarNotes from './@sidebar/SidebarNotes';
+  5 |
+  6 | export default function FilterLayout() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:06.847] Browser ERROR   ./app/notes/filter/layout.tsx:3:1
+Module not found: Can't resolve '../Notes.client'
+  1 | // app/notes/filter/layout.tsx
+  2 |
+> 3 | import NotesClient from '../Notes.client';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SidebarNotes from './@sidebar/SidebarNotes';
+  5 |
+  6 | export default function FilterLayout() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:06.847] Browser ERROR   ./app/notes/filter/layout.tsx:3:1
+Module not found: Can't resolve '../Notes.client'
+  1 | // app/notes/filter/layout.tsx
+  2 |
+> 3 | import NotesClient from '../Notes.client';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import SidebarNotes from './@sidebar/SidebarNotes';
+  5 |
+  6 | export default function FilterLayout() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:12.659] Server  LOG      ✓ Compiled in 69ms
+[00:01:50.076] Server  LOG      ✓ Compiled in 65ms

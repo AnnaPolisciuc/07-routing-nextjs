@@ -1,6 +1,6 @@
 // app/notes/filter/layout.tsx
 
-import NotesClient from '../Notes.client';
+import NotesClient from '../filter/[...slug]/Notes.client';
 import SidebarNotes from './@sidebar/SidebarNotes';
 
 export default function FilterLayout() {
