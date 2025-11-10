@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/annapolisciuc/Desktop/Projects/07-routing-nextjs/app/notes/%40sidebar/default.tsx"],"sourcesContent":["import SidebarNotes from \"\";\n\nexport default function SidebarSlot() {\n  return <SidebarNotes />;\n}\n"],"names":[],"mappings":";;;;;;;;;;;;AAEe,SAAS;IACtB,qBAAO,8OAAC;;;;;AACV","debugId":null}}]
+}

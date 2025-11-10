@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/annapolisciuc/Desktop/Projects/07-routing-nextjs/components/Modal/Modal.tsx"],"sourcesContent":["// \n\n\n// components/Modal/Modal.tsx\n\n'use client';\n\nimport { useRouter } from 'next/navigation';\n\ntype Props = {\n  children: React.ReactNode;\n};\n\nconst Modal = ({ children }: Props) => {\n  const router = useRouter();\n  \n  const close = () => router.back();\n\n  return (\n    <div>\n      <div>\n        {children}\n        <button onClick={close}>Close</button>\n      </div>\n    </div>\n  );\n};\n\nexport default Modal;\n"],"names":[],"mappings":"AAAA,GAAG;AAGH,6BAA6B;;;;;;AAI7B;;;AAFA;;AAQA,MAAM,QAAQ,CAAC,EAAE,QAAQ,EAAS;;IAChC,MAAM,SAAS,IAAA,kJAAS;IAExB,MAAM,QAAQ,IAAM,OAAO,IAAI;IAE/B,qBACE,6LAAC;kBACC,cAAA,6LAAC;;gBACE;8BACD,6LAAC;oBAAO,SAAS;8BAAO;;;;;;;;;;;;;;;;;AAIhC;GAbM;;QACW,kJAAS;;;KADpB;uCAeS","debugId":null}}]
+}

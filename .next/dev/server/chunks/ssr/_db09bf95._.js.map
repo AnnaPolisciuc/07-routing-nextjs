@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/annapolisciuc/Desktop/Projects/07-routing-nextjs/app/loading.tsx"],"sourcesContent":["export default function Loading() {\n    return (\n      <div style={{ padding: 20, textAlign: \"center\" }}>\n        Loading…\n      </div>\n    );\n  }\n  "],"names":[],"mappings":";;;;;;AAAe,SAAS;IACpB,qBACE,8OAAC;QAAI,OAAO;YAAE,SAAS;YAAI,WAAW;QAAS;kBAAG;;;;;;AAItD","debugId":null}},
+    {"offset": {"line": 27, "column": 0}, "map": {"version":3,"sources":["file:///Users/annapolisciuc/Desktop/Projects/07-routing-nextjs/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0],"debugId":null}}]
+}

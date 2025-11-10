@@ -19,7 +19,7 @@ export default function NoteDetails({ note }: NoteDetailsProps) {
           <span className={css.tag}>{note.tag}</span>
         </div>
         <p className={css.content}>{note.content}</p>
-        <p className={css.date}>Created: {new Date(note.createdAt).toLocaleDateString()}</p>
+        <p className={css.date}>Created: {new Date(note.createdAt).toLocaleDateString("en-GB")}</p>
       </div>
     </div>
   );

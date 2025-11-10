@@ -44,9 +44,8 @@ async function deleteNote(id) {
     return data;
 }
 async function fetchNoteById(id) {
-    console.log("API call for note ID:", id);
     if (!id) throw new Error("Note id is required");
-    const response = await api.get(`/notes/${id}`);
+    const response = await api.get(`/${id}`);
     return response.data;
 }
 async function fetchNotesByTag(tag, page = 1, perPage = 12) {
@@ -365,42 +364,48 @@ __turbopack_context__.v({
 
 __turbopack_context__.s([
     "default",
-    ()=>Modal
+    ()=>__TURBOPACK__default__export__
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Modal$2f$Modal$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/components/Modal/Modal.module.css [app-client] (css module)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$dom$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react-dom/index.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
-"use client";
+'use client';
 ;
 ;
 ;
-function Modal({ children, onClose }) {
+;
+const Modal = ({ children })=>{
     _s();
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
+    const close = ()=>router.back();
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Modal.useEffect": ()=>{
             const originalOverflow = document.body.style.overflow;
-            document.body.style.overflow = "hidden";
+            document.body.style.overflow = 'hidden';
             const handleKeyDown = {
                 "Modal.useEffect.handleKeyDown": (e)=>{
-                    if (e.key === "Escape") onClose();
+                    if (e.key === 'Escape') {
+                        close();
+                    }
                 }
             }["Modal.useEffect.handleKeyDown"];
-            window.addEventListener("keydown", handleKeyDown);
+            window.addEventListener('keydown', handleKeyDown);
             return ({
                 "Modal.useEffect": ()=>{
                     document.body.style.overflow = originalOverflow;
-                    window.removeEventListener("keydown", handleKeyDown);
+                    window.removeEventListener('keydown', handleKeyDown);
                 }
             })["Modal.useEffect"];
         }
-    }["Modal.useEffect"], [
-        onClose
-    ]);
+    }["Modal.useEffect"], []);
     const handleBackdropClick = (e)=>{
-        if (e.target === e.currentTarget) onClose();
+        if (e.target === e.currentTarget) {
+            close();
+        }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$dom$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createPortal"])(/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Modal$2f$Modal$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].backdrop,
@@ -413,17 +418,22 @@ function Modal({ children, onClose }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/components/Modal/Modal.tsx",
-            lineNumber: 39,
+            lineNumber: 48,
             columnNumber: 7
-        }, this)
+        }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/components/Modal/Modal.tsx",
-        lineNumber: 33,
+        lineNumber: 42,
         columnNumber: 5
-    }, this), document.body);
-}
-_s(Modal, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+    }, ("TURBOPACK compile-time value", void 0)), document.body);
+};
+_s(Modal, "vQduR7x+OPXj6PSmJyFnf+hU7bg=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"]
+    ];
+});
 _c = Modal;
+const __TURBOPACK__default__export__ = Modal;
 var _c;
 __turbopack_context__.k.register(_c, "Modal");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
@@ -830,7 +840,20 @@ function NotesClient() {
                 },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        // className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+                        style: {
+                            backgroundColor: '#0d6efd',
+                            color: '#fff',
+                            border: 'none',
+                            borderRadius: '6px',
+                            padding: '10px 16px',
+                            fontSize: '15px',
+                            cursor: 'pointer',
+                            transition: 'background-color 0.2s ease, transform 0.1s ease'
+                        },
+                        onMouseOver: (e)=>e.currentTarget.style.backgroundColor = '#0b5ed7',
+                        onMouseOut: (e)=>e.currentTarget.style.backgroundColor = '#0d6efd',
+                        onMouseDown: (e)=>e.currentTarget.style.transform = 'scale(0.97)',
+                        onMouseUp: (e)=>e.currentTarget.style.transform = 'scale(1)',
                         onClick: ()=>setIsModalOpen(true),
                         children: "Create Note +"
                     }, void 0, false, {
@@ -843,7 +866,7 @@ function NotesClient() {
                         onChange: handleSearchChange
                     }, void 0, false, {
                         fileName: "[project]/app/notes/Notes.client.tsx",
-                        lineNumber: 80,
+                        lineNumber: 94,
                         columnNumber: 9
                     }, this),
                     isFetching && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -853,7 +876,7 @@ function NotesClient() {
                         children: "Loading…"
                     }, void 0, false, {
                         fileName: "[project]/app/notes/Notes.client.tsx",
-                        lineNumber: 81,
+                        lineNumber: 95,
                         columnNumber: 24
                     }, this)
                 ]
@@ -863,24 +886,23 @@ function NotesClient() {
                 columnNumber: 7
             }, this),
             isModalOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Modal$2f$Modal$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                onClose: ()=>setIsModalOpen(false),
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$NoteForm$2f$NoteForm$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     onClose: ()=>setIsModalOpen(false)
                 }, void 0, false, {
                     fileName: "[project]/app/notes/Notes.client.tsx",
-                    lineNumber: 86,
+                    lineNumber: 100,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/notes/Notes.client.tsx",
-                lineNumber: 85,
+                lineNumber: 99,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$NoteList$2f$NoteList$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 notes: notes
             }, void 0, false, {
                 fileName: "[project]/app/notes/Notes.client.tsx",
-                lineNumber: 90,
+                lineNumber: 104,
                 columnNumber: 7
             }, this),
             totalPages > 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Pagination$2f$Pagination$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -889,7 +911,7 @@ function NotesClient() {
                 onPageChange: (p)=>setPage(p)
             }, void 0, false, {
                 fileName: "[project]/app/notes/Notes.client.tsx",
-                lineNumber: 93,
+                lineNumber: 107,
                 columnNumber: 9
             }, this)
         ]

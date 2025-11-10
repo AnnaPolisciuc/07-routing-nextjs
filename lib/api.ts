@@ -40,9 +40,8 @@ export async function deleteNote(id: string): Promise<Note> {
 
 
 export async function fetchNoteById(id: string): Promise<Note> {
-  console.log("API call for note ID:", id);
   if (!id) throw new Error("Note id is required");
-  const response = await api.get<Note>(`/notes/${id}`);
+  const response = await api.get<Note>(`/${id}`);
   return response.data;
 }
 

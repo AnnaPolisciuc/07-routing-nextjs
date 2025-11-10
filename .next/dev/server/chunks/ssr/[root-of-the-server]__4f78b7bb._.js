@@ -109,9 +109,8 @@ async function deleteNote(id) {
     return data;
 }
 async function fetchNoteById(id) {
-    console.log("API call for note ID:", id);
     if (!id) throw new Error("Note id is required");
-    const response = await api.get(`/notes/${id}`);
+    const response = await api.get(`/${id}`);
     return response.data;
 }
 async function fetchNotesByTag(tag, page = 1, perPage = 12) {

@@ -121,9 +121,8 @@ async function deleteNote(id) {
     return data;
 }
 async function fetchNoteById(id) {
-    console.log("API call for note ID:", id);
     if (!id) throw new Error("Note id is required");
-    const response = await api.get(`/notes/${id}`);
+    const response = await api.get(`/${id}`);
     return response.data;
 }
 async function fetchNotesByTag(tag, page = 1, perPage = 12) {
@@ -273,7 +272,7 @@ function NoteDetails({ note }) {
                     className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$NoteDetails$2f$NoteDetails$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].date,
                     children: [
                         "Created: ",
-                        new Date(note.createdAt).toLocaleDateString()
+                        new Date(note.createdAt).toLocaleDateString("en-GB")
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/NoteDetails/NoteDetails.tsx",

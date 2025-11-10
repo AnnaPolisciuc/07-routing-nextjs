@@ -66,3 +66,20 @@
     display: inline-block;
     background-color: transparent;
   }
+
+  .closeButton {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+    color: #555;
+    transition: color 0.2s ease;
+  }
+  
+  .closeButton:hover {
+    color: #000;
+  }

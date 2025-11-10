@@ -71,7 +71,21 @@ export default function NotesClient( ) {
     <div>
       <div style={{ display: "flex", gap: 12, alignItems: "center", marginBottom: 12 }}>
         <button
-          // className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+         style={{
+          backgroundColor: '#0d6efd',
+          color: '#fff',
+          border: 'none',
+          borderRadius: '6px',
+          padding: '10px 16px',
+          fontSize: '15px',
+          cursor: 'pointer',
+          transition: 'background-color 0.2s ease, transform 0.1s ease'
+        }}
+        onMouseOver={(e) => (e.currentTarget.style.backgroundColor = '#0b5ed7')}
+        onMouseOut={(e) => (e.currentTarget.style.backgroundColor = '#0d6efd')}
+        onMouseDown={(e) => (e.currentTarget.style.transform = 'scale(0.97)')}
+        onMouseUp={(e) => (e.currentTarget.style.transform = 'scale(1)')}
+
           onClick={() => setIsModalOpen(true)}
         >
           Create Note +
@@ -82,7 +96,7 @@ export default function NotesClient( ) {
       </div>
 
       {isModalOpen && (
-        <Modal onClose={() => setIsModalOpen(false)}>
+        <Modal>
           <NoteForm onClose={() => setIsModalOpen(false)} />
         </Modal>
       )}

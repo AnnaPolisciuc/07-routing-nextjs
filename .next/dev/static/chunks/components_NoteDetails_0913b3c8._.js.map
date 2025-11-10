@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/NoteDetails/NoteDetails.module.css [app-client] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"container\": \"NoteDetails-module__vGbVRW__container\",\n  \"content\": \"NoteDetails-module__vGbVRW__content\",\n  \"date\": \"NoteDetails-module__vGbVRW__date\",\n  \"header\": \"NoteDetails-module__vGbVRW__header\",\n  \"item\": \"NoteDetails-module__vGbVRW__item\",\n  \"tag\": \"NoteDetails-module__vGbVRW__tag\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA"}}]
+}
