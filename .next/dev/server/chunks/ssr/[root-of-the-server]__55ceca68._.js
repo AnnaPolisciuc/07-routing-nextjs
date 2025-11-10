@@ -111,12 +111,13 @@ const api = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$axio
         Authorization: `Bearer ${TOKEN}`
     }
 });
-async function fetchNotes(page = 1, perPage = 12, search = '') {
+async function fetchNotes(page = 1, perPage = 12, search = '', tag) {
     const params = {
         page,
         perPage
     };
     if (search.trim()) params.search = search.trim();
+    if (tag) params.tag = tag;
     const { data } = await api.get("/", {
         params
     });

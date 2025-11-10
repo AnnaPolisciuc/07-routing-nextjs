@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/annapolisciuc/Desktop/Projects/07-routing-nextjs/app/notes/filter/%5B...slug%5D/page.tsx"],"sourcesContent":["// app/notes/filter/[...slug]/page.tsx\nimport NotesClient from '../../Notes.client';\n\nexport default function NotesByTag(){\n  return <NotesClient />;\n}"],"names":[],"mappings":"AAAA,sCAAsC;;;;;;AACtC;;;AAEe,SAAS;IACtB,qBAAO,8OAAC,2IAAW;;;;;AACrB","debugId":null}}]
+}

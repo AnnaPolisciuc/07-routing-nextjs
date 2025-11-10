@@ -353,3 +353,121 @@ https://react.dev/link/hydration-mismatch
 [03:56:19.452] Server  LOG      ✓ Compiled in 5ms
 [03:58:29.005] Server  LOG      ✓ Compiled in 18ms
 [03:58:52.224] Server  WARN    Error: Route "/notes/filter/[tag]" used `params.tag`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[04:02:32.211] Server  WARN    Error: Route "/notes/filter/[tag]" used `params.tag`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[04:02:33.581] Server  WARN    Error: Route "/notes/filter/[tag]" used `params.tag`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[04:02:41.714] Server  WARN    Error: Route "/notes/filter/[tag]" used `params.tag`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[04:02:50.242] Server  WARN    Error: Route "/notes/filter/[tag]" used `params.tag`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:07:55.238] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:07:55.256] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:09:19.927] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:09:19.956] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:09:19.982] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:09:20.020] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:09:20.055] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:09:20.092] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:12:40.761] Server  LOG      ✓ Compiled in 19ms
+[05:12:55.103] Server  LOG      ✓ Compiled in 6ms
+[05:14:11.874] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
+[05:16:54.693] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
+[05:23:03.468] Browser ERROR   uncaughtError: Error: Switched to client rendering because the server rendering errored:
+
+Request failed with status code 400
+[05:23:03.469] Browser ERROR   uncaughtError: Error: Switched to client rendering because the server rendering errored:
+
+Request failed with status code 400
+[05:24:58.039] Server  ERROR    ⨯ Error: The default export is not a React Component in "/notes/filter/[...slug]/layout"
+[05:24:58.174] Server  ERROR    ⨯ Error: The default export is not a React Component in "/notes/filter/[...slug]/layout"
+[05:24:58.790] Server  ERROR    ⨯ Error: The default export is not a React Component in "/notes/filter/[...slug]/layout"
+[05:24:58.908] Server  ERROR    ⨯ Error: The default export is not a React Component in "/notes/filter/[...slug]/layout"
+[05:24:59.019] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/notes/filter/[...slug]/layout"
+[05:25:14.298] Server  LOG      ✓ Compiled in 17ms
+[05:28:11.698] Server  LOG      ✓ Compiled in 3ms
+[05:29:15.310] Browser ERROR   uncaughtError: Error: The server could not finish this Suspense boundary, likely due to an error during server rendering. Switched to client rendering.
+[05:31:23.312] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
+[05:32:46.289] Browser ERROR   uncaughtError: Error: Switched to client rendering because the server rendering errored:
+
+Request failed with status code 400
+[05:32:46.290] Browser ERROR   uncaughtError: Error: Switched to client rendering because the server rendering errored:
+
+Request failed with status code 400
+[05:32:46.535] Server  ERROR    ⨯ AxiosError: Request failed with status code 404
+[05:32:46.546] Server  ERROR    ⨯ AxiosError: Request failed with status code 404
+[05:32:46.551] Server  ERROR    ⨯ AxiosError: Request failed with status code 404
+[05:32:46.612] Server  ERROR    ⨯ AxiosError: Request failed with status code 404
+[05:32:54.344] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
+[05:32:54.364] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
+[05:32:54.384] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
+[05:32:54.394] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
+[05:33:26.210] Server  LOG      ✓ Compiled in 11ms
+[05:33:33.831] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
+[05:33:55.206] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
+[05:35:06.208] Browser ERROR   uncaughtError: Error: Switched to client rendering because the server rendering errored:
+
+Request failed with status code 400
+[05:35:06.397] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
+[05:35:06.476] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
+[05:35:06.482] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
+[05:35:06.525] Server  ERROR    ⨯ AxiosError: Request failed with status code 400
+[05:47:35.037] Server  LOG      ✓ Compiled in 195ms
+[05:49:20.543] Server  LOG      ✓ Compiled in 10ms
+[05:50:16.261] Server  LOG      ✓ Compiled in 11ms
+[05:52:00.146] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:52:00.150] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
+[05:52:00.170] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:52:00.172] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
+[05:52:34.571] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:52:34.574] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
+[05:52:59.224] Server  LOG      ✓ Compiled in 14ms
+[05:53:56.295] Server  LOG      ✓ Compiled in 5ms
+[05:54:12.238] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:54:12.240] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
+[05:54:17.824] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:54:17.830] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
+[05:54:19.303] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:54:19.309] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
+[05:54:22.457] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:54:22.460] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
+[05:54:24.299] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:54:24.310] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
+[05:54:24.545] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:54:24.548] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
+[05:54:24.871] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:54:24.875] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
+[05:54:26.681] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:54:26.686] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
+[05:54:28.447] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:54:28.452] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
+[05:56:12.419] Server  LOG      ✓ Compiled in 8ms
+[05:56:34.853] Server  LOG      ✓ Compiled in 40ms
+[05:57:31.542] Server  LOG      ✓ Compiled in 10ms
+[05:57:48.149] Server  WARN    Error: Route "/notes/filter/[...slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[05:57:48.159] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading '0')
+[06:01:10.523] Server  LOG      ✓ Compiled in 7ms
+[06:01:37.876] Server  LOG      ✓ Compiled in 13ms
+[06:02:13.316] Server  LOG      ✓ Compiled in 7ms
+[06:03:21.506] Server  LOG      ✓ Compiled in 13ms
+[06:04:14.053] Server  LOG      ✓ Compiled in 4ms
+[06:05:05.413] Server  LOG      ✓ Compiled in 55ms
+[06:07:02.474] Server  LOG      ✓ Compiled in 17ms
+[06:07:22.363] Server  LOG      ✓ Compiled in 145ms
+[06:08:13.369] Server  LOG      ✓ Compiled in 29ms
+[06:08:55.081] Server  LOG      ✓ Compiled in 7ms
+[06:09:50.934] Server  ERROR    ⨯ ReferenceError: params is not defined
+[06:10:14.855] Server  LOG      ✓ Compiled in 9ms
+[06:11:11.224] Browser ERROR   ./app/notes/filter/layout.tsx:2:10
+Ecmascript file had an error
+  1 | // app/notes/filter/layout.tsx
+> 2 | import { useParams } from 'next/navigation';
+    |          ^^^^^^^^^
+  3 | import NotesClient from '../Notes.client';
+  4 | import SidebarNotes from './@sidebar/SidebarNotes';
+  5 |
+
+You're importing a component that needs `useParams`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[06:12:46.018] Server  LOG      ✓ Compiled in 54ms
+[06:13:05.288] Server  LOG      ✓ Compiled in 7ms
+[06:13:19.594] Server  LOG      ✓ Compiled in 22ms
+[06:15:47.381] Server  LOG      ✓ Compiled in 6ms
+[06:18:32.605] Server  LOG      ✓ Compiled in 6ms

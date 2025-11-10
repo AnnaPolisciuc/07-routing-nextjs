@@ -18,10 +18,10 @@ const api = axios.create({
 });
 
 
-export async function fetchNotes(page = 1, perPage = 12, search = ''): Promise<NoteResponse> {
+export async function fetchNotes(page = 1, perPage = 12, search = '', tag?:string): Promise<NoteResponse> {
   const params: Record<string, string | number> = { page, perPage };
   if (search.trim()) params.search = search.trim();
-
+  if(tag) params.tag = tag;
   const { data } = await api.get<NoteResponse>("/", { params }); 
   return data;
 }

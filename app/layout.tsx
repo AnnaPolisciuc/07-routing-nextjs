@@ -8,7 +8,7 @@ export default function RootLayout({
   modal,
 }: {
   children: ReactNode;
-  modal: ReactNode; // 👈 добавляем modal сюда
+  modal: ReactNode; 
 }) {
   return (
     <html lang="en">
@@ -16,7 +16,7 @@ export default function RootLayout({
         <TanStackProvider>
           <Header />
           {children}
-          {modal} {/* 👈 теперь модалки будут рендериться */}
+          {modal}
           <Footer />
         </TanStackProvider>
       </body>
