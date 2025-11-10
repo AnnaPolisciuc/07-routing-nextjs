@@ -3,7 +3,7 @@ import css from "./LayoutNotes.module.css"
 
 interface LayoutNotesProps {
   children: ReactNode; 
-  sidebar: ReactNode;  
+  sidebar?: ReactNode;  
   modal?: ReactNode;   
 }
 
