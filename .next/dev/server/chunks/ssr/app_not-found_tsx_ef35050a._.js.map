@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/annapolisciuc/Desktop/Projects/07-routing-nextjs/app/not-found.tsx"],"sourcesContent":["\n\nexport default function NotFound() {\n  return (\n    <div>\n      <h1 className={css.title}>404 - Page not found</h1>\n      <p className={css.description}>\n        Sorry, the page you are looking for does not exist.\n      </p>\n    </div>\n  );\n}"],"names":[],"mappings":";;;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;;0BACC,8OAAC;gBAAG,WAAW,IAAI,KAAK;0BAAE;;;;;;0BAC1B,8OAAC;gBAAE,WAAW,IAAI,WAAW;0BAAE;;;;;;;;;;;;AAKrC","debugId":null}}]
+}

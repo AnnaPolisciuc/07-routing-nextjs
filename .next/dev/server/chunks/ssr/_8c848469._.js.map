@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/annapolisciuc/Desktop/Projects/07-routing-nextjs/app/layout.tsx"],"sourcesContent":["import type { ReactNode } from \"react\";\n\nexport default function LayoutNotes({\n  children,\n  sidebar,\n  modal,\n}: {\n  children: ReactNode;\n  sidebar: ReactNode;\n  modal: ReactNode;\n}) {\n  return (\n    <div>\n      {sidebar}\n      <div>\n        {children}\n        {modal}\n      </div>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAEe,SAAS,YAAY,EAClC,QAAQ,EACR,OAAO,EACP,KAAK,EAKN;IACC,qBACE,8OAAC;;YACE;0BACD,8OAAC;;oBACE;oBACA;;;;;;;;;;;;;AAIT","debugId":null}},
+    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":["file:///Users/annapolisciuc/Desktop/Projects/07-routing-nextjs/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0],"debugId":null}}]
+}

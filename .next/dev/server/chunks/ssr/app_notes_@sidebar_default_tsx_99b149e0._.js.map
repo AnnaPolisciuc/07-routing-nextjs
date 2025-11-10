@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/annapolisciuc/Desktop/Projects/07-routing-nextjs/app/notes/%40sidebar/default.tsx"],"sourcesContent":["// app/notes/@sidebar/default.tsx\n\"use client\";\nimport Link from \"next/link\";\nimport { NoteCreate } from \"@/types/note\";\n\n\nconst tags: NoteCreate[\"tag\"][] = [\"Todo\", \"Work\", \"Personal\", \"Meeting\", \"Shopping\"];\n\nexport default function SidebarNotes() {\n  return (\n    <ul>\n      <li><Link href=\"/notes/filter/all\">All notes</Link></li>\n      {tags.map((tag) => (\n        <li key={tag}>\n          <Link href={`/notes/filter/${tag}`}>{tag}</Link>\n        </li>\n      ))}\n    </ul>\n  );\n}\n"],"names":[],"mappings":"AAAA,iCAAiC;;;;;;AAEjC;AADA;;;AAKA,MAAM,OAA4B;IAAC;IAAQ;IAAQ;IAAY;IAAW;CAAW;AAEtE,SAAS;IACtB,qBACE,8OAAC;;0BACC,8OAAC;0BAAG,cAAA,8OAAC,uKAAI;oBAAC,MAAK;8BAAoB;;;;;;;;;;;YAClC,KAAK,GAAG,CAAC,CAAC,oBACT,8OAAC;8BACC,cAAA,8OAAC,uKAAI;wBAAC,MAAM,CAAC,cAAc,EAAE,KAAK;kCAAG;;;;;;mBAD9B;;;;;;;;;;;AAMjB","debugId":null}}]
+}

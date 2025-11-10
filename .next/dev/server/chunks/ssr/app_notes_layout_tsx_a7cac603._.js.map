@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/annapolisciuc/Desktop/Projects/07-routing-nextjs/app/notes/layout.tsx"],"sourcesContent":["import type { ReactNode } from \"react\";\nimport css from \"./LayoutNotes.module.css\"\n\ninterface LayoutNotesProps {\n  children: ReactNode; // основной контент (список заметок)\n  sidebar: ReactNode;  // слот @sidebar\n  modal?: ReactNode;   // слот @modal, может быть пустым\n}\n\nexport default function LayoutNotes({ children, sidebar, modal }: LayoutNotesProps) {\n  return (\n    <div className=\"container\">\n      {sidebar && (\n        <aside className=\"sidebar\">\n          {sidebar}\n        </aside>\n      )}\n      <main className=\"notesWrapper\">\n        {children}\n        {modal && (\n          <div>\n            {modal}\n          </div>\n        )}\n      </main>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;;AASe,SAAS,YAAY,EAAE,QAAQ,EAAE,OAAO,EAAE,KAAK,EAAoB;IAChF,qBACE,8OAAC;QAAI,WAAU;;YACZ,yBACC,8OAAC;gBAAM,WAAU;0BACd;;;;;;0BAGL,8OAAC;gBAAK,WAAU;;oBACb;oBACA,uBACC,8OAAC;kCACE;;;;;;;;;;;;;;;;;;AAMb","debugId":null}}]
+}

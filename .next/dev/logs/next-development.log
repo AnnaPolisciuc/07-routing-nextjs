@@ -1,0 +1,9 @@
+[00:00:00.558] Server  LOG      ✓ Ready in 400ms
+[00:00:14.315] Server  WARN    Error: Route "/(.)notes/[id]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:14.315] Server  LOG     🟢 Modal params: {}
+[00:00:14.317] Server  WARN    Error: Route "/(.)notes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:14.317] Server  ERROR   ❌ No note ID passed to modal!
+[00:09:59.445] Server  WARN    Error: Route "/(.)notes/[id]" used `...params` or similar expression. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:09:59.445] Server  LOG     Modal params: {}
+[00:09:59.447] Server  WARN    Error: Route "/(.)notes/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:09:59.447] Server  ERROR   No note ID passed to modal!
