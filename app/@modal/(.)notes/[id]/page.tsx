@@ -2,7 +2,7 @@
 import { fetchNoteById } from "@/lib/api";
 
 import Modal from "@/components/Modal/Modal";
-import NotePreview from "./NotePreview";
+import NotePreview from "./NotePreview.client";
 
 interface ModalNotePageProps {
   params: Promise<{ id: string }>; 

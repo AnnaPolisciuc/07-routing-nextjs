@@ -471,3 +471,35 @@ You're importing a component that needs `useParams`. This React Hook only works 
 [06:13:19.594] Server  LOG      ✓ Compiled in 22ms
 [06:15:47.381] Server  LOG      ✓ Compiled in 6ms
 [06:18:32.605] Server  LOG      ✓ Compiled in 6ms
+[06:33:39.452] Server  ERROR    ⨯ ./app/@modal/(.)notes/[id]/page.tsx:5:1
+Module not found: Can't resolve './NotePreview'
+  3 |
+  4 | import Modal from "@/components/Modal/Modal";
+> 5 | import NotePreview from "./NotePreview";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | interface ModalNotePageProps {
+  8 |   params: Promise<{ id: string }>; 
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:33:39.452] Server  ERROR    ⨯ ./app/@modal/(.)notes/[id]/page.tsx:5:1
+Module not found: Can't resolve './NotePreview'
+  3 |
+  4 | import Modal from "@/components/Modal/Modal";
+> 5 | import NotePreview from "./NotePreview";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | interface ModalNotePageProps {
+  8 |   params: Promise<{ id: string }>; 
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:33:48.122] Server  LOG      ✓ Compiled in 21ms
+[06:35:05.009] Server  LOG      ✓ Compiled in 38ms
