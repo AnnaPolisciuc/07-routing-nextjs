@@ -86,3 +86,4 @@ Module not found: Can't resolve '../Notes.client'
 https://nextjs.org/docs/messages/module-not-found
 [00:01:12.659] Server  LOG      ✓ Compiled in 69ms
 [00:01:50.076] Server  LOG      ✓ Compiled in 65ms
+[09:22:49.253] Server  LOG        Reload env: .env
