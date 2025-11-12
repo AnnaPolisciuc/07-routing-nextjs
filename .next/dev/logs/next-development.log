@@ -1,89 +1,39 @@
-[00:00:00.575] Server  LOG      ✓ Ready in 412ms
-[00:00:04.552] Server  ERROR    ⨯ ./app/notes/filter/layout.tsx:3:1
-Module not found: Can't resolve '../Notes.client'
-  1 | // app/notes/filter/layout.tsx
-  2 |
-> 3 | import NotesClient from '../Notes.client';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import SidebarNotes from './@sidebar/SidebarNotes';
-  5 |
-  6 | export default function FilterLayout() {
+[00:00:00.711] Server  LOG      ✓ Ready in 531ms
+[00:39:07.139] Server  LOG      ✓ Compiled in 39ms
+[00:52:08.451] Server  LOG      ✓ Compiled in 0ms
+[00:52:15.182] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
 
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
 
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
-https://nextjs.org/docs/messages/module-not-found
+https://react.dev/link/hydration-mismatch
 
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={function NotesError} errorStyles={<SegmentViewNode>} errorScripts={[...]}>
+        <ErrorBoundaryHandler pathname="/notes/fil..." errorComponent={function NotesError} ...>
+          <LoadingBoundary name="all/" loading={null}>
+            <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/notes/fil..." tree={[...]} params={{slug:[...]}} ...>
+                    <SegmentViewNode type="page" pagePath="notes/filt...">
+                      <SegmentTrieNode>
+                      <NotesByTagPage>
+                        <HydrationBoundary state={{...}}>
+                          <NotesClient>
+                            <div>
+                              <div style={{display:"flex", ...}}>
+                                <button>
+                                <SearchBox>
++                               <span style={{marginLeft:8}}>
+                              ...
+                    ...
+                  ...
+      ...
 
-[00:00:04.976] Browser ERROR   uncaughtError: Error: ./app/notes/filter/layout.tsx:3:1
-Module not found: Can't resolve '../Notes.client'
-  1 | // app/notes/filter/layout.tsx
-  2 |
-> 3 | import NotesClient from '../Notes.client';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import SidebarNotes from './@sidebar/SidebarNotes';
-  5 |
-  6 | export default function FilterLayout() {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:05.130] Browser ERROR   ./app/notes/filter/layout.tsx:3:1
-Module not found: Can't resolve '../Notes.client'
-  1 | // app/notes/filter/layout.tsx
-  2 |
-> 3 | import NotesClient from '../Notes.client';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import SidebarNotes from './@sidebar/SidebarNotes';
-  5 |
-  6 | export default function FilterLayout() {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:05.130] Browser ERROR   ./app/notes/filter/layout.tsx:3:1
-Module not found: Can't resolve '../Notes.client'
-  1 | // app/notes/filter/layout.tsx
-  2 |
-> 3 | import NotesClient from '../Notes.client';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import SidebarNotes from './@sidebar/SidebarNotes';
-  5 |
-  6 | export default function FilterLayout() {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:06.621] Browser ERROR   ./app/notes/filter/layout.tsx:3:1
-Module not found: Can't resolve '../Notes.client'
-  1 | // app/notes/filter/layout.tsx
-  2 |
-> 3 | import NotesClient from '../Notes.client';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import SidebarNotes from './@sidebar/SidebarNotes';
-  5 |
-  6 | export default function FilterLayout() {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:06.847] Browser ERROR   ./app/notes/filter/layout.tsx:3:1
-Module not found: Can't resolve '../Notes.client'
-  1 | // app/notes/filter/layout.tsx
-  2 |
-> 3 | import NotesClient from '../Notes.client';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import SidebarNotes from './@sidebar/SidebarNotes';
-  5 |
-  6 | export default function FilterLayout() {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:06.847] Browser ERROR   ./app/notes/filter/layout.tsx:3:1
-Module not found: Can't resolve '../Notes.client'
-  1 | // app/notes/filter/layout.tsx
-  2 |
-> 3 | import NotesClient from '../Notes.client';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import SidebarNotes from './@sidebar/SidebarNotes';
-  5 |
-  6 | export default function FilterLayout() {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:01:12.659] Server  LOG      ✓ Compiled in 69ms
-[00:01:50.076] Server  LOG      ✓ Compiled in 65ms
-[09:22:49.253] Server  LOG        Reload env: .env

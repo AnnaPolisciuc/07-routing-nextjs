@@ -10,21 +10,21 @@ import ErrorComponent from "./error";
 import Modal from "@/components/Modal/Modal";
 import NoteForm from "@/components/NoteForm/NoteForm";
 import SearchBox from "@/components/SearchBox/SearchBox";
-import { useParams } from "next/navigation";
 
-export default function NotesClient() {
-  const params = useParams();
+interface NotesClientProps {
+  tag?: string;
+}
+
+export default function NotesClient({ tag }: NotesClientProps) {
   const [page, setPage] = useState<number>(1);
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [debounced, setDebounced] = useState<string>("");
 
-  const tag = params.slug?.[0] === "all" ? undefined : params.slug?.[0];
-
   useEffect(() => {
     const t = setTimeout(() => {
       setDebounced(searchQuery);
-      setPage(1); 
+      setPage(1);
     }, 300);
     return () => clearTimeout(t);
   }, [searchQuery]);
@@ -36,7 +36,6 @@ export default function NotesClient() {
     queryFn: () => fetchNotes(page, 12, debounced, tag),
     staleTime: 1000 * 5,
   });
-
 
   const handleSearchChange = (value: string) => {
     setSearchQuery(value);

@@ -2,7 +2,6 @@ module.exports = [
 "[project]/app/notes/filter/[...slug]/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// app/notes/filter/[...slug]/page.tsx
 __turbopack_context__.s([
     "default",
     ()=>NotesByTag
