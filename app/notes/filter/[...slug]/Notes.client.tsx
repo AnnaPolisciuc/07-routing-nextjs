@@ -76,9 +76,9 @@ export default function NotesClient({ tag }: NotesClientProps) {
       </div>
 
       {isModalOpen && (
-        <Modal>
-          <NoteForm onClose={() => setIsModalOpen(false)} />
-        </Modal>
+        <Modal onClose={() => setIsModalOpen(false)}>
+        <NoteForm onClose={() => setIsModalOpen(false)} />
+      </Modal>
       )}
 
       {totalPages > 1 && (
