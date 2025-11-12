@@ -1,23 +1,27 @@
-
 import Link from "next/link";
+import css from "./SidebarNotes.module.css"; 
 import type { ReactElement } from "react";
 
 const TAGS = ["Todo", "Work", "Personal", "Meeting", "Shopping"] as const;
 
 export default function SidebarDefault(): ReactElement {
   return (
-    <nav aria-label="Notes filter">
-      <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-        <li>
-          <Link href="/notes/filter/all">All notes</Link>
+    <aside>
+      <ul className={css.menuList}>
+        <li className={css.menuItem}>
+          <Link href="/notes/filter/all" className={css.menuLink}>
+            All notes
+          </Link>
         </li>
 
         {TAGS.map((tag) => (
-          <li key={tag} style={{ marginTop: 8 }}>
-            <Link href={`/notes/filter/${tag}`}>{tag}</Link>
+          <li key={tag} className={css.menuItem}>
+            <Link href={`/notes/filter/${tag}`} className={css.menuLink}>
+              {tag}
+            </Link>
           </li>
         ))}
       </ul>
-    </nav>
+    </aside>
   );
 }
